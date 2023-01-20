@@ -9,6 +9,8 @@ import App from '../src/App';
 import Restaurants  from '../src/components/Restaurants';
 import { addRestaurant } from '../src/actions/restaurants'
 import manageRestaurants from '../src/reducers/manageRestaurants'
+import 'core-js/actual';
+
 
 import Adapter from 'enzyme-adapter-react-16'
 
